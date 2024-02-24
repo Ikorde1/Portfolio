@@ -22,47 +22,37 @@
   /* Add this CSS to your existing styles */
 
 /* For small devices (up to 640px width) */
-@media (max-width: 500px) {
-  
+@media (max-width: 640px) {
 
   .hide{
     display: none;
-    }
+  }
+   
 .nav{
-  width: 52vh;
+  width: auto;
 }
   .resume{
     position: relative;
-    width: 15%;
+    width: 30%;
     font-size: 1rem;
     font-style: bold;
   }
-
-  .left-side {
-    margin-top: -150px;
-    width: 100%; /* Make left side take full width */
-    margin-bottom: 20px; /* Add margin at the bottom for spacing */
+  .intro-section{
+    position: relative;
+    left: 0px;
+    top: -160px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 8px;
+    
+    
   }
 
   .role{
-    width: 250px;
+    width: 200px;
     font-size: 1rem;
     padding: 2px;
-  }
-
-  button{
-    position: relative;
-    margin-left:-80px;
-  }
-
-  .box {
-    text-align: center; /* Center align text */
-  }
-
-  .right-side {
-    width: 100%; /* Make right side take full width */
-    text-align: center; /* Center align text */
-    margin-top: -50px;
   }
   
   .icons {
@@ -70,32 +60,41 @@
   }
 
   .icons i {
-    font-size: 2rem; /* Adjust icon size for smaller devices */
+    font-size: 1.5rem; /* Adjust icon size for smaller devices */
+
+  }
+  .browse{
+    position: relative;
+    margin-left: -60px;
   }
 
   .right-side img {
-    max-width: 100%; /* Make image responsive */
+    max-width: 60%; /* Make image responsive */
     height: 250px; /* Maintain aspect ratio */
     width: 200px;
-    margin-left: 100px;
+    margin-left: 60px;
+    margin-top: 200px;
   }
   .name{
   position: relative;
-  margin-left: 60px;
+  margin-left: 15px;
+  font-size: 2em;
   }
   .title{
     position: relative;
-    margin-left: 60px;
+    margin-left: 10px;
+    
     }
 
-  .box2 {
-    padding: 0 20px; /* Add padding to the box */
-  }
+    .box2 {
+      padding: 0 40px; /* Add padding to the box */
+    }
 
   .skill-section{
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 80px;
+    row-gap: 40px;
+    margin-top: -120px;
     
   }
   .right-skill{
@@ -110,14 +109,26 @@
   .heading{
     position: relative;
     margin-left: 0px;
+    font-size: 40px ;
   }
   .subHeading{
     width: 400px;
+    display: none;
+    
   }
 
-  .footer{
-    width: 52vh;
+  .right-skill{
+    gap: 30px;
+    width: 350px;
+
   }
+  .skills-logo{
+    width: 50px;
+    height: 50px;
+   
+  }
+
+  
 }
 
 

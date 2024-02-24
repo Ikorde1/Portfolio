@@ -42,7 +42,7 @@ function Home() {
     }, []); // Empty dependency array since changeName doesn't depend on any external variables
 
     return (
-        <div>
+        <div className='page'>
                     {/* introduction */}
                 <div className='intro-section mt-24 flex  justify-around'>
 
@@ -60,7 +60,7 @@ function Home() {
             <a href='#'><i className='text-pink-800  hover:cursor-pointer  hover:text-blue-800'><IoLogoInstagram /></i></a>
             </div>
         </div>
-        <button className="bg-purple-700 gap-x-2 relative top-44 left-36 hover:bg-purple-500 text-white font-medium py-2 px-4 rounded inline-flex items-center"
+        <button className="browse bg-purple-700 gap-x-2 relative top-44 left-36 hover:bg-purple-500 text-white font-medium py-2 px-4 rounded inline-flex items-center"
         onClick={() => navigate("/projects")}
         >
         <span>Browse Projects</span>
@@ -98,7 +98,7 @@ function Home() {
                             MyTech Stack
                             </h2>
                             <div className='subHeading w-1/2'>
-                            <p>
+                            <p className='para'>
                                 Hi Everyone My name is Ishwar, I am a Full Stack Web Developer. I
                                 have been working for last 3 Years and Currently I am working with Infosys in Pune and a full Time Freelancer. Currently I am
                                 working on NextJs and Making Beautiful UI-UX are my key features.
