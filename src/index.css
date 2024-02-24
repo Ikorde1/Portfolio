@@ -1,0 +1,127 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.kaushan-font {
+    font-family: 'Kaushan Script', cursive;
+    size: 40px;
+  }
+
+
+  .dancing-font {
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .skills-logo{
+    width:90px;
+    transition:all 0.5s;
+  }
+
+
+  /* Add this CSS to your existing styles */
+
+/* For small devices (up to 640px width) */
+@media (max-width: 640px) {
+  
+
+  .hide{
+    display: none;
+    }
+.nav{
+  width: 52vh;
+}
+  .resume{
+    position: relative;
+    width: 15%;
+    font-size: 1rem;
+    font-style: bold;
+  }
+
+  .left-side {
+    margin-top: -150px;
+    width: 100%; /* Make left side take full width */
+    margin-bottom: 20px; /* Add margin at the bottom for spacing */
+  }
+
+  .role{
+    width: 250px;
+    font-size: 1rem;
+    padding: 2px;
+  }
+
+  button{
+    position: relative;
+    margin-left:-80px;
+  }
+
+  .box {
+    text-align: center; /* Center align text */
+  }
+
+  .right-side {
+    width: 100%; /* Make right side take full width */
+    text-align: center; /* Center align text */
+    margin-top: -50px;
+  }
+  
+  .icons {
+    width: 100%; /* Make icons container take full width */
+  }
+
+  .icons i {
+    font-size: 2rem; /* Adjust icon size for smaller devices */
+  }
+
+  .right-side img {
+    max-width: 100%; /* Make image responsive */
+    height: 250px; /* Maintain aspect ratio */
+    width: 200px;
+    margin-left: 100px;
+  }
+  .name{
+  position: relative;
+  margin-left: 60px;
+  }
+  .title{
+    position: relative;
+    margin-left: 60px;
+    }
+
+  .box2 {
+    padding: 0 20px; /* Add padding to the box */
+  }
+
+  .skill-section{
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 80px;
+    
+  }
+  .right-skill{
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+  }
+  .left-skill{
+    font-size: 14px;
+    text-align: center;
+  }
+  .heading{
+    position: relative;
+    margin-left: 0px;
+  }
+  .subHeading{
+    width: 400px;
+  }
+
+  .footer{
+    width: 52vh;
+  }
+}
+
+
+
+
+  
+  
