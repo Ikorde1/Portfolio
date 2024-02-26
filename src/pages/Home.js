@@ -55,9 +55,9 @@ function Home() {
 
             <div className='icons text-3xl flex justify-evenly  bg-red w-[29rem] relative py-4 top-[80px]'>
            
-            <a href='https://github.com/Ikorde1'> <i className=' text-black hover:cursor-pointer hover:text-blue-800'><FaGithub /></i></a>               
-            <a href='https://www.linkedin.com/in/ishwark/'><i className='text-blue-800 hover:cursor-pointer hover:text-blue-800'> <IoLogoLinkedin /></i></a>
-            <a href='https://www.instagram.com/korde.ishwar'><i className='text-pink-800  hover:cursor-pointer  hover:text-blue-800'><IoLogoInstagram /></i></a>
+            <a href='https://github.com/Ikorde1' target="_blank"> <i className=' text-black hover:cursor-pointer hover:text-blue-800'><FaGithub /></i></a>               
+            <a href='https://www.linkedin.com/in/ishwark/' target="_blank"><i className='text-blue-800 hover:cursor-pointer hover:text-blue-800'> <IoLogoLinkedin /></i></a>
+            <a href='https://www.instagram.com/korde.ishwar' target="_blank"><i className='text-pink-800  hover:cursor-pointer  hover:text-blue-800'><IoLogoInstagram /></i></a>
             </div>
         </div>
         <button className="browse bg-purple-700 gap-x-2 relative top-44 left-36 hover:bg-purple-500 text-white font-medium py-2 px-4 rounded inline-flex items-center"
