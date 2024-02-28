@@ -55,9 +55,9 @@ function Home() {
 
             <div className='icons text-3xl flex justify-evenly  bg-red w-[29rem] relative py-4 top-[80px]'>
            
-            <a href='https://github.com/Ikorde1' target="_blank"> <i className=' text-black hover:cursor-pointer hover:text-blue-800'><FaGithub /></i></a>               
-            <a href='https://www.linkedin.com/in/ishwark/' target="_blank"><i className='text-blue-800 hover:cursor-pointer hover:text-blue-800'> <IoLogoLinkedin /></i></a>
-            <a href='https://www.instagram.com/korde.ishwar' target="_blank"><i className='text-pink-800  hover:cursor-pointer  hover:text-blue-800'><IoLogoInstagram /></i></a>
+            <a href='https://github.com/Ikorde1'> <i className=' text-black hover:cursor-pointer hover:text-blue-800'><FaGithub /></i></a>               
+            <a href='https://www.linkedin.com/in/ishwark/'><i className='text-blue-800 hover:cursor-pointer hover:text-blue-800'> <IoLogoLinkedin /></i></a>
+            <a href='https://www.instagram.com/korde.ishwar'><i className='text-pink-800  hover:cursor-pointer  hover:text-blue-800'><IoLogoInstagram /></i></a>
             </div>
         </div>
         <button className="browse bg-purple-700 gap-x-2 relative top-44 left-36 hover:bg-purple-500 text-white font-medium py-2 px-4 rounded inline-flex items-center"
@@ -66,8 +66,21 @@ function Home() {
         <span>Browse Projects</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
     
-        </button>               
+        </button> 
+               
             
+    </div>
+
+
+{/* blog button for mobile screen */}
+    <div className='blog-btn  lg:hidden absolute  top-[89%] left-[355px]'>
+        <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800"
+        onClick={() => navigate("/Blogs")}
+        >
+            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white  dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+        CHECK MY BLOGS
+            </span>
+            </button>
     </div>
          
 
@@ -137,7 +150,7 @@ function Home() {
 
                 {/* footer */}
                 <div className='footer w-full  text-white mt-8 py-2 bg-gray-800 text-center'>
-                Get in touch: +91 8208771967 /+91 9767898127
+                Get in touch: +91 8208771967 / +91 9767898127
                 </div>
         </div>
     );
