@@ -4,7 +4,8 @@ import React from 'react'
 
 function Blogs() {
   return (
-   <div className='blogs  w-[70%] ml-16 mt-10'>
+   <div>
+    <div className='blogs  w-[70%] ml-16 mt-10'>
 
 
 <ul className='list-disc space-y-10 '>
@@ -48,6 +49,13 @@ function Blogs() {
         <button className='p-2 hover:bg-slate-600 text-white rounded bg-gray-800'><a href='https://medium.com/@ishwayk123/maximizing-performance-with-lazy-loading-in-react-1e6dbbd1d3f0' target='_blank'>Read More</a></button> </div></li>
        </ul>
 
+
+   </div>
+
+    {/* footer */}
+    <div className='footer w-full  text-white mt-8 py-2 bg-gray-800 text-center'>
+                Get in touch: +91 8208771967 / +91 9767898127
+                </div>
    </div>
   )
 }
