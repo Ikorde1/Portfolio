@@ -32,7 +32,17 @@
   .hide{
     display: none;
   }
-   
+
+  .blog-btn{
+   top: 52%;
+   left: 30%;
+
+  }
+ 
+  .port{
+    left: 2%;
+  }
+
 .nav{
   width: auto;
 }
@@ -47,6 +57,7 @@
     left: 0px;
     top: -160px;
     display: flex;
+    gap: 60px;
     flex-direction: column;
     
     padding: 8px;
@@ -70,7 +81,7 @@
   }
   .browse{
     position: relative;
-    margin-left: -60px;
+   left: 27%;
   }
 
   .right-side img {
