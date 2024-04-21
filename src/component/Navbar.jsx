@@ -11,7 +11,7 @@ function Navbar() {
                 <li className="hide hover:text-blue-600 cursor-pointer" onClick={() => navigate("/")}>Home</li>
                 <li className="hide hover:text-blue-600 cursor-pointer" onClick={() => navigate("/projects")}>Projects</li>
                 <li className="hide hover:text-blue-600 cursor-pointer" onClick={() => navigate("/Blogs")}>Blogs</li>
-                <li className="resume rounded text-center py-2 px-3 bg-lime-600 hover:bg-green-900 text-white"><a href="https://drive.google.com/uc?export=download&id=1V9TipLgVu6m7S_gENc8OJOu4pG3-joeh">Resume</a></li>
+                <li className="resume rounded text-center py-2 px-3 bg-lime-600 hover:bg-green-900 text-white"><a href="https://drive.google.com/uc?export=download&id=1hRJboJWoMSZHT106zTuYaS2f0DUdoNWX">Resume</a></li>
             </ul>
         </div>
     );
