@@ -112,10 +112,11 @@ function Home() {
                             </h2>
                             <div className='subHeading w-1/2'>
                             <p className='para'>
-                                Hi Everyone My name is Ishwar, I am a Full Stack Web Developer. I
-                                have been working for last 3 Years and Currently I am working with Infosys in Pune and a full Time Freelancer. Currently I am
-                                working on NextJs and Making Beautiful UI-UX are my key features.
-                                I have experience in developing web applications using JavaScript, ReactJS, Nodejs, Express.
+                            Hey everyone,
+ 
+                            I'm Ishwar, a Full Stack Web Developer with 3 years of experience. Currently, I work at Infosys in Pune and freelance full-time. I'm passionate about creating beautiful UI/UX designs, and I'm currently focusing on Nextls. My expertise includes JavaScript, ReactJS, Node.js, and Express for developing web applications.
+  
+                            Feel free to connect!
                              </p>
                             </div>
                             
