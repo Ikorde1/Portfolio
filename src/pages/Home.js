@@ -114,18 +114,10 @@ function Home() {
                             </h2>
                             <div className='subHeading w-1/2'>
                             <p className='para'>
-<<<<<<< HEAD
-                            Hey everyone,
- 
-                            I'm Ishwar, a Full Stack Web Developer with 3 years of experience. Currently, I work at Infosys in Pune and freelance full-time. I'm passionate about creating beautiful UI/UX designs, and I'm currently focusing on Nextls. My expertise includes JavaScript, ReactJS, Node.js, and Express for developing web applications.
-  
-                            Feel free to connect!
-=======
                             Hello, <br/><br/>
 
                             I’m Ishwar, a Frontend Developer with three years of experience currently working at Infosys Ltd. in Pune. My primary focus has been on React.js, and I am actively expanding my skills in the MERN stack and React Native. My passion lies in building dynamic and engaging web applications, and I’m continually seeking opportunities to enhance my expertise in modern development technologies.
 
->>>>>>> Portfolio_Redesigning_1.0
                              </p>
                             </div>
                             
