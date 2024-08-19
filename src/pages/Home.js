@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import mypic from '../images/mypic.jpg';
 import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
-import { IoLogoInstagram } from "react-icons/io5";
+// import { IoLogoInstagram } from "react-icons/io5";
+import { RiTwitterXFill } from "react-icons/ri";
 import html from "../images/stack/HTML.png"
 import CSS from  "../images/stack/CSS.png"
 import Javascript from "../images/stack/Javascript.svg"
@@ -50,17 +51,18 @@ function Home() {
     <div className='left-side flex-col'>
         <div className='box flex-col relative top-20 space-y-6'>
             <h3 className='text-4xl font-extrabold'>I AM A</h3>
-            <h1 className=' role relative left-12 px-4 py-4 text-4xl h-15 w-[430px] bg-gray-800 font-serif text-white rounded- shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] transition-transform duration-300 hover:scale-110'>{role}</h1>
+            <h1 className=' role relative left-12 px-4 py-4 text-4xl h-15 w-[430px] bg-gray-800 font-serif text-white rounded shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] transition-transform duration-300 hover:scale-110'>{role}</h1>
             <p className='absolute text-sm font-sans italic leading-5'>Hey there! If you are looking for a MERN developer then you have come to the right place . Take a look around and if you like what you see, let's connect!</p>
 
             <div className='icons text-3xl flex justify-evenly  bg-red w-[29rem] relative py-4 top-[80px]'>
            
-            <a href='https://github.com/Ikorde1'> <i className=' text-black hover:cursor-pointer hover:text-blue-800'><FaGithub /></i></a>               
-            <a href='https://www.linkedin.com/in/ishwark/'><i className='text-blue-800 hover:cursor-pointer hover:text-blue-800'> <IoLogoLinkedin /></i></a>
-            <a href='https://www.instagram.com/korde.ishwar'><i className='text-pink-800  hover:cursor-pointer  hover:text-blue-800'><IoLogoInstagram /></i></a>
+            <a href='https://github.com/Ikorde1' target='_blank' rel="noopener noreferrer"> <i className=' text-black hover:cursor-pointer hover:text-gray-700'><FaGithub /></i></a>               
+            <a href='https://www.linkedin.com/in/ishwark/'  target='_blank' rel="noopener noreferrer"><i className='text-blue-800 hover:cursor-pointer hover:text-blue-800'> <IoLogoLinkedin /></i></a>
+            <a href='https://x.com/KordeIshwar'  target='_blank' rel="noopener noreferrer"><i className='text-black-800 text-2xl hover:cursor-pointer  hover:text-gray-600'><RiTwitterXFill /></i></a>
+            {/* <a href='https://www.instagram.com/korde.ishwar'  target='_blank' rel="noopener noreferrer"><i className='text-pink-600  hover:cursor-pointer  hover:text-pink-800'><IoLogoInstagram /></i></a> */}
             </div>
         </div>
-        <button className="browse bg-purple-700 gap-x-2 relative top-44 left-36 hover:bg-purple-500 text-white font-medium py-2 px-4 rounded inline-flex items-center"
+        <button className="browse bg-gray-800 gap-x-2 relative top-44 left-36 hover:scale-105 transition-transform ease-in-out hover:bg-gray-900 shadow-[0_4px_6px_-1px_rgba(0,0,0,1)] text-white font-medium py-2 px-4 rounded inline-flex items-center"
         onClick={() => navigate("/projects")}
         >
         <span>Browse Projects</span>
@@ -108,15 +110,22 @@ function Home() {
                             <h2 className=" heading font-bold text-[3.12rem] text-gray-800 leading-[3.125rem]">
                             <span className='text-[6rem]'>M</span>e and
                             <br />
-                            MyTech Stack
+                            My Tech Stack
                             </h2>
                             <div className='subHeading w-1/2'>
                             <p className='para'>
+<<<<<<< HEAD
                             Hey everyone,
  
                             I'm Ishwar, a Full Stack Web Developer with 3 years of experience. Currently, I work at Infosys in Pune and freelance full-time. I'm passionate about creating beautiful UI/UX designs, and I'm currently focusing on Nextls. My expertise includes JavaScript, ReactJS, Node.js, and Express for developing web applications.
   
                             Feel free to connect!
+=======
+                            Hello, <br/><br/>
+
+                            I’m Ishwar, a Frontend Developer with three years of experience currently working at Infosys Ltd. in Pune. My primary focus has been on React.js, and I am actively expanding my skills in the MERN stack and React Native. My passion lies in building dynamic and engaging web applications, and I’m continually seeking opportunities to enhance my expertise in modern development technologies.
+
+>>>>>>> Portfolio_Redesigning_1.0
                              </p>
                             </div>
                             
