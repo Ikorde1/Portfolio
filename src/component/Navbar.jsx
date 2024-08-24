@@ -46,13 +46,13 @@ function Navbar() {
                 <li className="hide hover:text-sky-700 cursor-pointer" onClick={() => navigate("/projects")}>Projects</li>
                 <li className="hide hover:text-sky-700 cursor-pointer" onClick={() => navigate("/Blogs")}>Blogs</li>
                 <button
-                    className="resume flex items-center cursor-pointer rounded text-center py-1 px-2 bg-transparent text-white hover:text-sky-700 hover:bg-gray-900 shadow-[0_4px_6px_-1px_rgba(255,255,255,0.3)]"
+                    className="resume flex items-center cursor-pointer rounded text-center  bg-transparent text-white hover:text-sky-700 hover:bg-gray-900 shadow-[0_4px_6px_-1px_rgba(255,255,255,0.3)]"
                     onClick={() => {
                         notify();
                         navigate("/MyResume");
                     }}
                 >
-                    <a href="https://drive.google.com/uc?export=download&id=1ND9aHIjZZrC4UcqTPbZsGIgsHeDII_AN" className="flex items-center space-x-2" download>
+                    <a href="https://drive.google.com/uc?export=download&id=1ND9aHIjZZrC4UcqTPbZsGIgsHeDII_AN" className="flex py-1 px-2 items-center space-x-2" download>
                         <span>Resume</span>
                         <FaCloudDownloadAlt />
                     </a>
