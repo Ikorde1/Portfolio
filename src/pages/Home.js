@@ -75,12 +75,12 @@ function Home() {
 
 
 {/* blog button for mobile screen */}
-    <div className='blog-btn  lg:hidden absolute  top-[89%] left-[355px]'>
-        <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800"
+    <div className='blog-btn   lg:hidden absolute  top-[89%] left-[355px] '>
+        <button className="relative left-6 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm  rounded-lg group hover:bg-gray-900  text-white font-medium"
         onClick={() => navigate("/Blogs")}
         >
-            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white  dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-        CHECK MY BLOGS
+            <span class=" px-5 py-2.5 bg-gray-800 rounded-md group-hover:bg-opacity-0">
+           View Blogs
             </span>
             </button>
     </div>
@@ -92,7 +92,7 @@ function Home() {
     <div className='right-side'>
         
         <div className='box2 flex-col '>
-            <img src={mypic} alt="" className='w-[300px] h-[400px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] ' />
+            <img src={mypic} alt="" loading='lazy' className='w-[300px] h-[400px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] ' />
             <h2 className='name relative left-[3rem] text-[2.25rem] top-2 text-gray-800 dancing-font'>Ishwar Korde</h2>
             <h3 className='title relative left-[1.5rem] font-serif text-slate-600'>Software Engineer at Infosys Ltd.</h3>
         </div>
