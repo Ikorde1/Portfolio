@@ -51,6 +51,7 @@
     width: 30%;
     font-size: 1rem;
     font-style: bold;
+    z-index: 1;
   }
   .intro-section{
     position: relative;
