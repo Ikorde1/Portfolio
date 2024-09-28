@@ -37,12 +37,12 @@ function Navbar() {
     };
 
     return (
-        <div className="shadow-md">
+        <div className="fixed top-0 left-0 right-0 z-50 shadow-md bg-gray-800">
             {/* Mobile view */}
-            <div className="lg:hidden flex   justify-end items-center p-3 bg-gray-800 text-white">
-            <h2 className='text-white flex left-2 cursor-pointer kaushan-font text-3xl absolute' onClick={() => navigate("/")}>Portfolio</h2>
+            <div className="lg:hidden flex justify-end items-center p-3 text-white">
+                <h2 className='text-white flex left-2 cursor-pointer kaushan-font text-3xl absolute' onClick={() => navigate("/")}>Portfolio</h2>
                 <button
-                    className="resume flex  items-center py-2 px-4 cursor-pointer rounded text-center bg-transparent text-white hover:text-sky-700 hover:bg-gray-900 shadow-[0_4px_6px_-1px_rgba(255,255,255,0.3)]"
+                    className="resume flex items-center py-2 px-4 cursor-pointer rounded text-center bg-transparent text-white hover:text-sky-700 hover:bg-gray-900 shadow-[0_4px_6px_-1px_rgba(255,255,255,0.3)]"
                     onClick={() => {
                         notify();
                         navigate("/MyResume");
@@ -56,7 +56,7 @@ function Navbar() {
             </div>
 
             {/* Desktop view */}
-            <ul className="nav hidden lg:flex justify-end text-white bg-gray-800 px-6 pt-8 space-x-14 pb-6 pl-20 text-1xl items-center font-serif cb:text-base relative">
+            <ul className="nav hidden lg:flex justify-end text-white px-6 pt-8 space-x-14 pb-6 pl-20 text-1xl items-center font-serif cb:text-base relative">
                 <h2 className='text-white cursor-pointer kaushan-font text-4xl absolute left-8' onClick={() => navigate("/")}>Portfolio</h2>
                 <li className="hover:text-sky-700 cursor-pointer" onClick={() => navigate("/")}>Home</li>
                 <li className="hover:text-sky-700 cursor-pointer" onClick={() => navigate("/projects")}>Projects</li>
